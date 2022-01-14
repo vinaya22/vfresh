@@ -1,6 +1,7 @@
 {
   "name": "vfresh",
   "version": "0.1.0",
+  "homepage": "https://vinaya22.github.io/vfresh",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
