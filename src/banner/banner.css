@@ -1,0 +1,38 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}
+
+.content {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content p {
+    padding: 2rem 0;
+    color: var(--light-color);
+    font-size: 1.7rem;    
+}
+
+.banner .content button {
+    padding: 0.8rem 3rem;
+    color: var(--black);    
+    font-size: 1.7rem;
+    background: none;
+    cursor: pointer;
+    border: 0.2rem solid var(--black);
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.banner .content span {
+    text-align: left;
+    color: green;
+}

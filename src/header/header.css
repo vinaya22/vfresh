@@ -1,0 +1,52 @@
+.header {
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 2rem 9%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.logo {
+    color: var(--black);    
+    font-size: 2.5rem;        
+    font-weight: 700;
+}
+
+.basketIcon {
+    color: var(--orange);
+    margin-right: 0.5rem;    
+}
+
+.header .icons button {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem;    
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;    
+}
+
+.header .icons button .fa-icon {
+    color: var(--black);
+    transition-duration: 0s;
+}
+
+.header .icons button:hover .fa-icon {
+    color: #fff;    
+}
+
+.header .icons button:hover {    
+    background-color: var(--orange);
+}
+
+.header .icons #menu-btn {
+    display: none;
+}

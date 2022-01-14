@@ -1,0 +1,14 @@
+.footer {
+    text-align: center;
+    background: #fff;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.footer p span{
+    color: var(--orange);
+}

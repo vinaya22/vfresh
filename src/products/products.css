@@ -1,0 +1,52 @@
+.section h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.section h1 span {
+    color: #fff;
+    background: var(--orange);
+    padding: 0.5rem 3rem;
+    display: inline-block;
+    -webkit-clip-path: polygon(100% 0,93% 50%,100% 99%,0 100%,7% 50%,0 0);
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0 100%,7% 50%,0 0);
+}
+
+.section .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.section .box-container .box {
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    padding: 3rem 2rem;
+    transition: .2s linear;
+    background: #fff;
+}
+
+.section .box-container .box img {
+    height: 20rem;
+}
+
+.section .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.section .box-container .box .price {
+    color: var(--light-color);
+    font-size: 2rem;
+}
+
+.section .box-container .box .stars {
+    color: var(--orange);
+    padding: 0.5rem 0;
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+}
