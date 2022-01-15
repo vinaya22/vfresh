@@ -30,6 +30,11 @@
     background: #fff;
 }
 
+.section .box-container .box:hover {
+    outline-offset: 0;
+    outline: var(--outline-hover);
+}
+
 .section .box-container .box img {
     height: 20rem;
 }
